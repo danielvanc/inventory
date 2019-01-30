@@ -6,6 +6,7 @@ class StorePicker extends React.Component {
   myInput = React.createRef();
   static propTypes = {
     history: PropTypes.object
+    
   }
   // constructor() {
     // super();
