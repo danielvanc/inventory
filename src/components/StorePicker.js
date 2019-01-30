@@ -1,8 +1,12 @@
 import React from 'react';//only want render from the react-dom lib
+import PropTypes from 'prop-types'
 import { getFunName } from '../helpers'
 
 class StorePicker extends React.Component {
   myInput = React.createRef();
+  static propTypes = {
+    history: PropTypes.object
+  }
   // constructor() {
     // super();
     // this.goToStore = this.goToStore.bind(this);
